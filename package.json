@@ -1,0 +1,21 @@
+{
+  "name": "bipmixer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cron": "^1.8.2",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "minter-js-sdk": "^0.41.0",
+    "minterjs-util": "^0.22.0",
+    "minterjs-wallet": "^6.1.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "scripts": {
+    "bot": "nodemon -r esm bot.js"
+  }
+}
